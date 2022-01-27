@@ -1,0 +1,141 @@
+header {
+    margin: 0 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+}
+@media screen and (max-width:768px) {
+    header {
+        justify-content: center;
+        margin: 0 150px;
+    }
+    
+}   
+
+nav {
+    display: block;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+li {
+    margin-left: 30px;
+    
+}
+li > a {
+    text-decoration: none;
+    color: darkslategray;
+}
+
+header-left > h1 {
+    background-color: rgb(10, 17, 17);
+    color: white;
+    font-size: 22px;
+    padding: 3px 20px;
+}
+
+.top-wrapper {
+    background-image: url(./maingoal.jpg);
+    height: 85vh;
+    background-size: cover;
+    margin: 0 auto;
+    background-position: 10% 60%;
+
+}
+@media screen and (max-width:780px) {
+    .top-wrapper {
+        height: 30vh;
+        background-position: 100% 60%;
+
+    }
+}
+    
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.introduction >img {
+    height: 100px;
+    border-radius: 100px;
+}
+.main-wrapper {
+    color: darkslategray;
+}
+.about {
+    margin-top: 90px;
+}
+.about > h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.description {
+    margin-left: 30px;
+}
+.description h2 {
+    font-size: 15px;
+    padding: 0;
+}
+.description p {
+    font-size: 15px;
+}
+@media screen and (max-width:768px) {
+    .description p {
+        width: 95%;
+    }
+    
+}
+.bicycle {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.bicycle > h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
+@media screen and (max-width:780px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+    
+
+.card > img {
+    height: 180px;
+    margin-right: 20px;
+}
+
+.card > h2, .card > p {
+    text-align: center;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 15px;
+}
+footer {
+    font-size: 5px;
+    text-align: center;
+}
